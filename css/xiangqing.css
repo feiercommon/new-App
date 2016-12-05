@@ -1,0 +1,58 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#ccc;
+}
+img{
+    border: none;
+}
+.xiangqing{
+    width:100%;
+    height:100%;
+}
+.xiangqing .title{
+    width:100%;
+    height:1rem;
+    background:#ddd;
+    font-size:0.35rem;
+    text-align:center;
+    line-height:1rem;
+
+}
+.xiangqing .titlecon{
+    background:#d02a1e;
+    width:100%;
+}
+.xiangqing .titlecon .cons{
+    width:90%;
+    height:4.2rem;
+    margin-left:0.34rem;
+    background:#d02a1e url(../img/xq.png) no-repeat;
+    background-size:100% 100%;
+}
+.biaotibox{
+    width:90%;
+    padding:0.04rem;
+    font-size:0.35rem;
+    text-align:center;
+    margin-left:0.34rem;
+    color:#d02a1e;
+}
+.conbox{
+    width:90%;
+    height:7.2rem;
+    font-size:0.3rem;
+    margin-left:0.34rem;
+}
+.conbox p:not(:nth-child(1)){
+    margin-top:0.2rem;
+}
