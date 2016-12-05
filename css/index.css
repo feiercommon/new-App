@@ -10,45 +10,93 @@ html, body {
 }
 a{
     text-decoration: none;
-    color: #FFFFFF;
+    color:#ccc;
 }
 img{
     border: none;
 }
-.swiper-container {
+.list{
     width: 100%;
     height: 100%;
 }
-/*第一屏*/
-.swiper-slide:nth-child(1){
-    background:linear-gradient(#73a5a2,#fff8c9);
-    text-align:center;
+.list h2{
+    width: 100%;
+    height: 1rem;
+    background-color: #fafafa;
+    border-bottom: 0.01rem solid #dcdcde;
+    color: #666;
+    text-align: center;
+    font-size: 0.5rem;
+    line-height: 1rem;
 }
-.swiper-slide:nth-child(1) span{
-    font-size:1.7rem;
-    color:#fff;
-    line-height:6rem;
+.inputbox{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#efefef;
 }
-.swiper-slide:nth-child(1) .bg11{
-    width:4.45rem;
-    height:3.96rem;
-    background:url(../img/11.png) no-repeat;
+.inputbox .search{
+    width: 6.3rem;
+    height: 0.75rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search input{
+    border:0;
+}
+.cancle{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-image: url(../img/cancel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.bigbox{
+    width:100%;
+    height:11.3rem;
+    /*background:red;*/
+}
+.bigbox .new{
+    width: 3.66rem;
+    height: 3.66rem;
+    background:#fff;
+    margin-bottom: 0.15rem;
+    float:left;
+}
+.bigbox .new1{
+    background:url(../img/new9.jpg) no-repeat;
     background-size:cover;
-    margin:-0.5rem auto;
 }
-.swiper-slide:nth-child(1) p{
-    font-size:0.64rem;
-    color:#827d5f;
-    line-height:3.5rem;
+.bigbox .new2{
+    background:url(../img/new2.jpg) no-repeat;
+    background-size:cover;
+    margin-left: 0.16rem;
 }
-
-/*第二屏*/
-.swiper-slide:nth-child(3){
-    background:#ffff00;
+.bigbox .new3{
+    background:url(../img/new3.jpg) no-repeat;
+    background-size:cover;
 }
-.swiper-slide:nth-child(4){
-    background:#ffff00;
+.bigbox .new4{
+    background:url(../img/new4.jpg) no-repeat;
+    background-size:cover;
+    margin-left: 0.16rem;
 }
-.swiper-slide:nth-child(5){
-    background:#ffff00;
+.bigbox .new5{
+    background:url(../img/new5.jpg) no-repeat;
+    background-size:cover;
+}
+.bigbox .new6{
+    background:url(../img/new6.jpg) no-repeat;
+    background-size:cover;
+    margin-left: 0.16rem;
+}
+.bigbox a{
+    width:100%;height:100%;
+    display:block;
 }
