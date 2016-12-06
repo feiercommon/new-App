@@ -129,24 +129,18 @@ img{
     text-align:center;
 }
 .swiper-slide:nth-child(3) span:nth-child(1){
-    /*width:4rem;*/
-    /*height:0.64rem;*/
     font-size:0.64rem;
     display:block;
     color:#e02524;
     margin:1.3rem auto 0;
 }
 .swiper-slide:nth-child(3) span:nth-child(2){
-    /*width:4.7rem;*/
-    /*height:0.46rem;*/
     font-size:0.46rem;
     display:block;
     color:#949494;
     margin:0.43rem auto 0;
 }
 .swiper-slide:nth-child(3) span:nth-child(3){
-    width:5.6rem;
-    height:0.46rem;
     font-size:0.46rem;
     display:block;
     color:#949494;
