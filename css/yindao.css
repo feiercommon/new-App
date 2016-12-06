@@ -77,35 +77,34 @@ img{
     background:#2d2d2d;
 }
 .yd11{
-    width:1.5rem;
-    height:1.3rem;
-    background:url(../img/yd13.png) no-repeat;
-    margin-top:0.51rem;
-    margin-left:0.57rem;
+    width:1.2rem;
+    height:0.96rem;
+    background:url(../img/yd11.png) no-repeat;
+    margin-top:1rem;
+    margin-left:0.38rem;
+    background-size:100% 100%;
 }
 .yd12{
-    width:100%;
-    height:6.31rem;
-    background:url(../img/yd11.png) no-repeat;
-    background-size:80% 80%;
-    background-position:center;
-    border:1px solid transparent;
-
+    width:6rem;
+    height:5.27rem;
+    background:url(../img/yd12.png) no-repeat;
+    background-size:100% 100%;
+    margin:0.5rem auto 0;
 }
 .yd13{
-    width:1.92rem;
-    height:0.97rem;
-    margin-top:5.53rem;
-    margin-left:0.53rem;
-    background:url(../img/yd12.png) no-repeat;
+    width:1.56rem;
+    height:0.8rem;
+    margin-top:0.36rem;
+    margin-left:0.54rem;
+    background:url(../img/yd14.png) no-repeat;
+    background-size:100% 100%;
 }
 .yd14{
-    width:1.59rem;
-    height:0.79rem;
-    margin-top:-1.5rem;
-    margin-left:5.8rem;
+    width:1.56rem;
+    height:0.8rem;
+    margin-top:-0.24rem;
+    margin-left:5.48rem;
     background:url(../img/yd14.png) no-repeat;
-
 }
 .swiper-slide:nth-child(2) .span1{
     width:3.2rem;
@@ -113,7 +112,7 @@ img{
     font-size:0.8rem;
     display:block;
     color:#fff;
-    margin:1.7rem auto 0;
+    margin:0.7rem auto 0;
 }
 .swiper-slide:nth-child(2) .span2{
     width:3.84rem;
@@ -257,7 +256,6 @@ img{
     display:block;
     background:url(../img/jinru.png) no-repeat;
     background-size:100% 100%;
-    margin-top:1rem;
-    margin-left:1.83rem;
+    margin:1rem auto 0;
 }
 
