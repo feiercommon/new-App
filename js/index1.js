@@ -10,7 +10,7 @@ $(function(){
         }
         document.getElementsByTagName("html")[0].style.fontSize = scale;
     }
-    resise(1334,"y");
+    resise(750,"x");
     var mySwiper = new Swiper ('.swiper-container', {
 
         // 如果需要分页器

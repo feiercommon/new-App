@@ -5,42 +5,61 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>首页</title>
+    <title>Document</title>
     <script src="js/zepto.min.js"></script>
     <script src="js/swiper.jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
     <script src="js/index.js"></script>
-    <link rel="stylesheet" href="css/index.css">
-
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/yindao.css">
 </head>
 <body>
-<div class="list">
-    <h2>选择你感兴趣的分类</h2>
-    <div class="inputbox">
-        <div class="search">
-            <input type="text" placeholder="请输入您要查找的分类名称">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <span class="mf11">有趣的新闻</span>
+            <span class="mf12">选好你的阵营，表达你的观点</span>
+            <div class="mf13"></div>
+            <div class="mf14"></div>
+            <div class="mf15"></div>
+            <div class="mf16"></div>
         </div>
-        <div class="cancle"></div>
+        <div class="swiper-slide">
+            <div class="yd11"></div>
+            <div class="yd12">
+                <div class="yd13"></div>
+                <div class="yd14"></div>
+            </div>
+            <span class="span1">趣味新闻</span>
+            <span class="span2">最近的球迷，最新的新闻</span>
+        </div>
+        <div class="swiper-slide">
+            <span>及时新闻报道</span>
+            <span>资深媒体人与一线记者</span>
+            <span>给你最全面、最专业的评述</span>
+            <div class="mm1"></div>
+            <div class="mm2"></div>
+            <div class="mm3"></div>
+            <div class="mm4"></div>
+        </div>
+        <div class="swiper-slide">
+            <span>热门赛事直播</span>
+            <span>欧冠 亚冠 英超</span>
+            <span>意甲 中超 足协杯</span>
+            <div class="dd1"></div>
+            <div class="dd2"></div>
+        </div>
+        <div class="swiper-slide">
+            <span class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">眼界</span>
+            <div class="bg11 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"></div>
+            <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">开启眼界的新闻之旅</p>
+            <a href="shouye.html" class="jinru"></a>
+        </div>
     </div>
-    <div class="bigbox">
-        <div class="new new1">
-            <a href="list.html"></a>
-        </div>
-        <div class="new new2">
-            <a href="list.html"></a>
-        </div>
-        <div class="new new3">
-            <a href="list.html"></a>
-        </div>
-        <div class="new new4">
-            <a href="list.html"></a>
-        </div>
-        <div class="new new5">
-            <a href="list.html"></a>
-        </div>
-        <div class="new new6">
-            <a href="list.html"></a>
-        </div>
-    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
 </div>
 </body>
 </html>
