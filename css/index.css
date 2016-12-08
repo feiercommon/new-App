@@ -18,28 +18,41 @@ img{
 @font-face {font-family: "iconfont";
     src: url(../font/iconfont.woff); /* IE9*/
 }
-
 .iconfont {
     font-family:"iconfont" !important;
     font-size:16px;
     font-style:normal;
 }
 
-.icon-fanhui:before { content: "\e623"; }
+.icon-shezhi:before { content: "\e600"; }
 
-.icon-wode:before { content: "\e618"; }
+.icon-zhuanlan:before { content: "\e602"; }
+
+.icon-shoucang:before { content: "\e601"; }
+
+.icon-fankui:before { content: "\e60e"; }
+
+.icon-tongzhi:before { content: "\e615"; }
+
+.icon-my:before { content: "\e63e"; }
+
+.icon-shiting:before { content: "\e606"; }
 
 .icon-shequ:before { content: "\e624"; }
 
-.icon-zhuanti:before { content: "\e619"; }
+.icon-yuedu:before { content: "\e651"; }
 
-.icon-shiting:before { content: "\e608"; }
+.icon-huodong:before { content: "\e617"; }
 
-.icon-tianjiamulu:before { content: "\e617"; }
+.icon-xiaoxi:before { content: "\e603"; }
 
-.icon-mulu:before { content: "\e62c"; }
+.icon-jinbi:before { content: "\e62a"; }
+
+.icon-207:before { content: "\e616"; }
 
 .icon-shouye-copy:before { content: "\e64e"; }
+
+.icon-gentie-:before { content: "\e6bf"; }
 .list{
     width: 100%;
     height: 100%;
@@ -144,6 +157,12 @@ img{
     display: flex;
     justify-content:space-around;
     align-items:center;
+    bottom:0;
+}
+.navbox a{
+    width:100%;
+    height:100%;
+    display:block;
 }
 .nav{
     width: 1rem;
@@ -156,7 +175,7 @@ img{
     display: block;
     margin: 0.1rem auto;
 }
-.nav a{
+.nav span{
     display: block;
     font-size: 0.3rem;
     color: #000000;

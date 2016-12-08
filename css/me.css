@@ -1,0 +1,195 @@
+html,body{
+    width:100%;height:100%;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+    color:#ccc;
+}
+img{
+    border:none;
+}
+@font-face {font-family: "iconfont";
+    src: url(../font/iconfont.woff);
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+}
+.icon-shezhi:before { content: "\e600"; }
+
+.icon-zhuanlan:before { content: "\e602"; }
+
+.icon-guanzhu:before { content: "\e623"; }
+
+.icon-shoucang:before { content: "\e601"; }
+
+.icon-fankui:before { content: "\e60e"; }
+
+.icon-tongzhi:before { content: "\e615"; }
+
+.icon-my:before { content: "\e63e"; }
+
+.icon-shiting:before { content: "\e606"; }
+
+.icon-shequ:before { content: "\e624"; }
+
+.icon-yuedu:before { content: "\e651"; }
+
+.icon-huodong:before { content: "\e617"; }
+
+.icon-xiaoxi:before { content: "\e603"; }
+
+.icon-jinbi:before { content: "\e62a"; }
+
+.icon-207:before { content: "\e616"; }
+
+.icon-shouye-copy:before { content: "\e64e"; }
+
+.icon-08:before { content: "\e641"; }
+
+.icon-gentie-:before { content: "\e6bf"; }
+.mine{
+    width:100%;
+    height:4.32rem;
+    background:#ab0314;
+}
+.miaoshu{
+    width:100%;
+    height:1.26rem;
+    background:#ab0314;
+    line-height:1.26rem;
+}
+.menutu{
+    font-size:0.55rem;
+    display:block;
+    float:right;
+    margin-right:0.5rem;
+    margin-top:0.2rem;
+    color:#fff;
+}
+.tubox{
+    width:100%;height:3.06rem;
+}
+.picture{
+    width:1.44rem;
+    height:1.36rem;
+    background:url(../img/me11.png) no-repeat;
+    background-size:100% 100%;
+    margin:-0.3rem auto 0;
+}
+.dream{
+    text-align:center;
+    font-size:0.4rem;
+    color:#fff;
+    display:block;
+    margin-top:0.2rem;
+}
+.liuyan{
+    text-align:center;
+    font-size:0.3rem;
+    color:#fff;
+    display:block;
+    margin-top:0.3rem;
+}
+.tishibox{
+    width:100%;
+    height:1.5rem;
+}
+.footer{
+    width:25%;
+    height:100%;
+    float:left;
+    text-align:center;
+    border-right:0.01rem solid #ccc;
+    color:#333;
+}
+.footer div{
+    font-size:0.4rem;
+    margin:0.3rem auto 0;
+}
+.footer a{
+    font-size:0.3rem;
+    display:block;
+    margin:0.15rem auto 0;
+    color:#333;
+}
+.footer:nth-child(4){
+    border-right:none;
+}
+.bigbox{
+    width:100%;
+    height:7.81rem;
+    background:#ccc;
+    float:left;
+}
+.xinxibox{
+    width:100%;
+    height:1.3rem;
+    background:#fff;
+    margin-top:0.02rem;
+    line-height:1.3rem;
+}
+.xinxibox .tongzhi{
+    font-size:0.4rem;
+    float:left;
+    margin-left:0.5rem;
+    margin-right:0.3rem;
+}
+.xinxibox a{
+    font-size:0.3rem;
+    display:block;
+    color:#333;
+    margin-left:0.5rem;
+}
+/*.xinxibox span{*/
+    /*font-size:0.4rem;*/
+    /*float:left;*/
+/*}*/
+.xinxibox .moshi{
+    font-size:0.3rem;
+    float:left;
+    color:#000;
+    margin-left:0.46rem;
+    margin-right:0.3rem;
+}
+.navbox{
+    width:100%;
+    height:1.4rem;
+    background:#ccc;
+    font-size:0.3rem;
+    position:fixed;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    bottom:0;
+}
+.navbox a{
+    width:100%;
+    height:100%;
+    display:block;
+}
+.nav{
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+}
+.nav .navpic1{
+    width: 0.3rem;
+    height: 0.35rem;
+    display: block;
+    margin: 0.1rem auto;
+}
+.nav span{
+    display: block;
+    font-size: 0.3rem;
+    color: #000000;
+    line-height: 0.5rem;
+}

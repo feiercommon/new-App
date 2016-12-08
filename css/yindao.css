@@ -25,16 +25,12 @@ img{
     text-align: center;
 }
 .mf11{
-    width:3.42rem;
-    height:0.64rem;
     font-size:0.64rem;
     display:block;
     color:#e02524;
     margin:1.1rem auto 0;
 }
 .mf12{
-    width:6.04rem;
-    height:0.46rem;
     font-size:0.46rem;
     display:block;
     color:#aeaeae;
@@ -75,6 +71,7 @@ img{
 /*第二屏*/
 .swiper-slide:nth-child(2){
     background:#2d2d2d;
+    text-align:center;
 }
 .yd11{
     width:1.2rem;
@@ -107,16 +104,12 @@ img{
     background:url(../img/yd14.png) no-repeat;
 }
 .swiper-slide:nth-child(2) .span1{
-    width:3.2rem;
-    height:0.8rem;
     font-size:0.8rem;
     display:block;
     color:#fff;
     margin:0.7rem auto 0;
 }
 .swiper-slide:nth-child(2) .span2{
-    width:3.84rem;
-    height:0.46rem;
     font-size:0.33rem;
     display:block;
     color:#a9a9a9;
