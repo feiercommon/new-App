@@ -167,6 +167,7 @@ img{
 .nav{
     width: 1rem;
     height: 1rem;
+    float:left;
     text-align: center;
 }
 .nav .navpic1{
